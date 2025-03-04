@@ -1,2 +1,4 @@
-# goit-markup-hw-02
-Ödev #2
+# goit-markup-hw-01
+
+Homework-01
+This is my first project
