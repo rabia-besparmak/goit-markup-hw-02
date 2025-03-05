@@ -1,8 +1,91 @@
 body {
-    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-p {
-    color: yellowgreen;
-    background-color: aqua;
+.main-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.order-btn {
+    padding: 10px 20px;
+    background-color: #754fe0ee;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.order-btn:hover {
+    background-color: #8966e9ee;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-weight: 200;
+    display: flex;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    color: #007bff;
+}
+
+.approach-list {
+    list-style: none;
+    padding: 0;
+}
+
+.approach-list li {
+    line-height: 1.5;
+}
+
+.team-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+}
+
+.team-list li {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.team-list img {
+    width: 264px;
+    height: 264px;
+}
+
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    list-style: none;
+}
+
+.portfolio-list li {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.portfolio-list img {
+    width: 264px;
+    height: 264px;
+}
+
+footer {
+    text-align: left;
+    padding: 20px;
 }
