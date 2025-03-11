@@ -1,13 +1,7 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
 .header-list {
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
     margin-left: 156px;
 }
@@ -15,7 +9,6 @@
 .header-list .container {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
 }
 
 .logo {
@@ -44,9 +37,25 @@
     text-align: left;
 }
 
-.nav-list li {
+.nav-li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
     display: flex;
-    gap: 21px;
+}
+
+.nav-li:hover {
+    color: #404BBF;
+}
+
+.nav-li:focus {
+    color: #404BBF;
+}
+
+button {
+    cursor: pointer;
 }
 
 address {
@@ -54,7 +63,7 @@ address {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     cursor: pointer;
     display: flex;
@@ -71,12 +80,12 @@ body {
     background-color: #FFFFFF;
 }
 
-h1 {
+.heading-h1 {
     text-align: center;
     font-size: 56px;
-    line-height: 3.75em;
-    letter-spacing: 2%;
-    color: #352081;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 .order-btn {
@@ -111,11 +120,6 @@ h1 {
     line-height: 1.5em;
     letter-spacing: 0.02em;
     cursor: pointer;
-    width: Hug (261px)px;
-    height: Hug (24px)px;
-    top: 24px;
-    left: 347px;
-    gap: 40px;
     opacity: 0px;
 }
 
@@ -168,9 +172,6 @@ p {
     background-color: #FFFFFF;
 }
 
-.portfolio-list {
-    gap: 32px;
-}
 
 .footer-title {
     color: #4D5AE5;
@@ -203,11 +204,6 @@ p {
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
-    width: 264px;
-    height: 112px;
-    top: 3088px;
-    left: 156px;
-    gap: 0px;
     opacity: 0px;
     margin-left: 156px;
 }
