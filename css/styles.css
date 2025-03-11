@@ -43,7 +43,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    display: flex;
 }
 
 .nav-li:hover {
@@ -66,13 +65,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     cursor: pointer;
-    display: flex;
 }
-
-.container {
-    display: flex;
-}
-
 
 body {
     font-family: "Roboto", sans-serif;
@@ -139,7 +132,6 @@ body {
 ul {
     list-style-type: none;
     text-align: center;
-    display: flex;
 }
 
 h2 {
